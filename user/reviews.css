@@ -1,0 +1,23 @@
+.areatext{
+    width: 100%;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2);
+    padding: 5px;
+}
+
+.goto-btn{
+    margin: 10px 0px 10px 0px;
+    width: fit-content;
+    height: 40px;
+    background-color: #d31a23;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+ }
+ .flex-heading{
+    display: flex;
+    justify-content: space-between;
+ }

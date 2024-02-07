@@ -1,0 +1,31 @@
+form.form-reg{
+    display: block;
+    width: 1000px;
+    margin: 0px;
+}
+.heading p{
+    display: inline-block;
+}
+.info{
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    top: 0;
+    left: 0;
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 35%;
+}
+.invalid-alert{
+    background-color: #d31a45;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+}

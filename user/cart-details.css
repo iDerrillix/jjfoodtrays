@@ -1,0 +1,69 @@
+form{
+    margin: 20px auto auto auto;
+    padding: 50px;
+    display: block;
+    border-radius: 10px;
+    width: fit-content;
+    min-width: 800px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: white;
+}
+.cart-main{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cart-details{
+    width: 100%;
+}
+.cart-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.order-summary{
+    width: 100%;
+    max-width: 300px;
+}
+table{
+    width: 100%;
+}
+table tbody tr{
+    border-top: 1px rgb(218, 218, 218) solid;
+}
+table tbody tr td{
+    padding: 15px;
+}
+.order-details{
+    display: flex;
+    justify-content: space-between;
+}
+.submit-btn{
+    width: 100%;
+    background-color: #d92424;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    transition: background 0.5s;
+}
+.submit-btn:hover{
+    background-color: rgb(255, 118, 118);
+}
+.cart-remove{
+    width: 100%;
+    color: #d92424;;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 2px 5px 2px 5px;
+}
+.input-qty{
+    width: 75px;
+}
+.status-msg{
+    background-color: #ff6e6e;
+    border: #d92424 2px solid;
+    color: white;
+    padding: 10px;
+}

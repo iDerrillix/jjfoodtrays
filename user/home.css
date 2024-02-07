@@ -1,0 +1,131 @@
+
+.showcase{
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+#showcase-img{
+    object-fit: cover;
+    object-position: bottom;
+}
+.carousel-item{
+    max-height: 300px;
+}
+.showcase-text{
+    position: relative;
+    top:-50%;
+    right: -45%;
+}
+.carousel{
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content{
+    
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cat-1{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+.card{
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.card-text{
+    font-weight: 300;
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+}
+.prod-menu{
+    margin: 20px 0px auto 0px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+.cat-1:nth-child(){
+    transition-delay: 200ms;
+}
+.cat-1:nth-child(){
+    transition-delay: 400ms;
+}
+.cat-1:nth-child(){
+    transition-delay: 600ms;
+}
+.cat-1:nth-child(){
+    transition-delay: 800ms;
+}
+.btn{
+    margin-left: 150px;
+}
+.main-cont{
+    width: 85%;
+}
+.all-cont{
+    padding: 20px;
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+}
+.side-bar{
+    border-radius: 10px;
+    width: 15%;
+    background-color: white;
+    padding-top: 20px;
+    color: darkred;
+    text-align: center;
+    height: fit-content;
+}
+.side-bar ul, .side-bar ul{
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.side-bar li, .side-bar li{
+    
+    border-top: 1px rgb(218, 218, 218) solid;
+    width: 100%;
+    list-style: none;
+}
+.side-bar li button, .side-bar li button{ 
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: white;
+    transition: background 0.3s;
+    text-align: start;
+}
+.side-bar li button:hover{ 
+    background-color: rgb(207, 207, 207);
+}
+@media (max-width: 1200px){
+    .prod-menu{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
